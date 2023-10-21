@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--5. Dado el peso de una persona:
+a) Si el peso es menor o igual a 40 Kg. Muestre mensaje: Persona Baja de
+Peso;
+b) Si el peso es entre 41 y 70 Kg. Muestre el mensaje: Persona peso
+promedio;
+c) Si el peso es mayor a 71 Kg. Muestre el mensaje: “Persona con sobrepeso”-->
+
+<script>
+    let peso = parseFloat(prompt("Ingrese su peso : "));
+
+    if (peso <= 40 ){
+        alert("Persona bajo de paso");
+    }else if( peso >= 41 && peso <= 70 ){
+        alert("Persona con peso peomedio");
+    }else{
+        alert("Persona con sobrepeso");
+    }
+</script>
+</body>
+</html>
